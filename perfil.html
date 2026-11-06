@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil Personal</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="formulario.css">
+</head>
+<body>
+
+    <header>
+        <h1>Mi Perfil</h1>
+    </header>
+
+    <section>
+        <h2>Sobre Mí</h2>
+        <p> BUENASS, soy un estudiante que me gusta la programacion pero no soy muy bueno y por eso trato de enfocarme para aprender y desallorar mis habilidades aprendidas, tambien me cuesta cosentrarme pero eso no me impide seguir esforsandome.</p>
+    </section>
+
+    <section>
+        <h2>Experiencia</h2>
+        <p>bueno experiencias no tengo soy un estudiante y el apredisaje eh adquerido es en la universidad IUTA.</p>
+    </section>
+
+    <section>
+        <h2>Educación</h2>
+        <p>Actualmente me encuentro cursando mis estudios superiores universitarios, formándome en lenguajes de programación y el área tecnológica.</p>
+    </section>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>Escríbeme un mensaje y te respondo lo antes posible.</p>
+
+        <form id="formulario-contacto">
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="nombre">
+
+            <label for="correo">Correo electrónico</label>
+            <input type="text" id="correo" name="correo">
+
+            <label for="mensaje">Mensaje</label>
+            <textarea id="mensaje" name="mensaje" rows="5"></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+
+        <p id="respuesta"></p>
+    </section>
+
+    <script src="formulario.js"></script>
+
+</body>
+</html>
