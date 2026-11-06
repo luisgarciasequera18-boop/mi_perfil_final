@@ -54,3 +54,9 @@
 .error {
   color: red;
 }
+
+#formulario-contacto input:focus,
+#formulario-contacto textarea:focus {
+  outline: 2px solid #00a7da;
+  border-color: #00a7da;
+}
